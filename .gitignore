@@ -1,0 +1,16 @@
+# Build artifacts / local deliverables (rebuild with scripts/build.sh + make-app.sh)
+.build/
+.build-manual/
+dist/
+
+# SwiftPM
+.swiftpm/
+
+# Research scratch space (raw downloads / probes)
+.probe/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
